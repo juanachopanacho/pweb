@@ -14,12 +14,12 @@
     <header>
         <div class="logo"> <span>J</span>uancho. </div>
         <ul class="navlist">
-            <li> <a href="#home">Home</a> </li>
-            <li> <a href="#about">About</a> </li>
-            <li> <a href="#services">Services</a> </li>
-            <li> <a href="#skills">Skills</a> </li>
-            <li> <a href="#portafolio">Portafolio</a> </li>
-            <li> <a href="#contact">Contact</a> </li>
+            <li> <a href="#home" style="--i:1;">Home</a> </li>
+            <li> <a href="#about" style="--i:2;">About</a> </li>
+            <li> <a href="#services" style="--i:3;">Services</a> </li>
+            <li> <a href="#skills" style="--i:4;">Skills</a> </li>
+            <li> <a href="#portfolio" style="--i:5;">Portafolio</a> </li>
+            <li> <a href="#contact" style="--i:6;">Contact</a> </li>
 
         </ul>
         <div id="menu-icon" class="bx bx-menu">  </div>
@@ -27,7 +27,7 @@
 
 
     <section id="home" class="home">
-        <div class="home-content">
+        <div class="home-content scroll-scale" >
             <h1>Que tal! Soy Juancho</h1>
             <div class="change-text">
                 <h3>Y me dedico a</h3>
@@ -67,7 +67,7 @@
 
         </div>
 
-        <div class="home-image">
+        <div class="home-image scroll-scale">
             <div class="img-box">
                 <img src="img/man3.png" alt="">
             </div>
@@ -144,7 +144,7 @@
 
     <!-- about section ----------------------------------------------->
     <section id="about" class="about">
-        <div class="img-about">
+        <div class="img-about scroll-scale">
             <img src="img/about-me-pic2.png" alt="">
             <div class="info-about1">
                 <span>10+</span>
@@ -162,7 +162,7 @@
             </div>
         </div>
 
-        <div class="about-content">
+        <div class="about-content scroll-scale">
             <span>Permiteme presentarme</span>
             <h2>Acerca de mi</h2>
             <h3>Una historia de éxito</h3>
@@ -178,12 +178,12 @@
 
     <!-- services section ----------------------------------------------->
     <section id="services" class="services">
-        <div class="main-text">
+        <div class="main-text scroll-scale">
             <span>¿Qué podemos hacer por usted?</span>
             <h2>Nuestros servicios</h2>
         </div>
 
-        <div class="section-services">
+        <div class="section-services scroll-bottom">
             <div class="service-box">
                 <i class='bx bxs-layer service-icon' ></i>
                 <h3>Analisis 1</h3>
@@ -222,13 +222,13 @@
 
     <!-- skill section  ----------------------------------------------->
     <section id="skills" class="skills">
-        <div class="main-text">
+        <div class="main-text scroll-scale">
             <span>tecnico y profesional</span>
             <h2>Mis habilidades</h2>
         </div>
 
         <div class="skill-main">
-            <div class="skill-left">
+            <div class="skill-left scroll-scale">
                 <h3>Habilidades Duras</h3>
 
                 <div class="skill-bar">
@@ -272,7 +272,7 @@
                 </div>
 
             </div>
-            <div class="skill-rigth">
+            <div class="skill-rigth scroll-scale">
                 <h3>Habilidades Blandas</h3>
                 <div class="porfessional">
 
@@ -330,20 +330,20 @@
 
     <!-- portafolio section  ----------------------------------------------->
     <section class="portfolio" id="portfolio">
-        <div class="main-text">
+        <div class="main-text scroll-scale">
             <span>Que hare para usted</span>
             <h2>Ultimos proyectos</h2>
         </div>
 
         <div class="container">
-            <div class="fillter-buttons">
-                <button class="btn" data-filter="all">All</button>
-                <button class="btn" data-filter=".product">Productos</button>
-                <button class="btn" data-filter=".inter">Interactivos</button>
-                <button class="btn" data-filter=".web">Aplicaciones web</button>
+            <div class="fillter-buttons scroll-scale">
+                <button class="button" data-filter="all">All</button>
+                <button class="button" data-filter=".product">Productos</button>
+                <button class="button" data-filter=".inter">Interactivos</button>
+                <button class="button" data-filter=".web">Aplicaciones web</button>
             </div>
 
-            <div class="portfolio-gallery">
+            <div class="portfolio-gallery scroll-bottom">
                 <div class="port-box mix product">
                     <div class="port-image">
                         <img src="img/1.png" alt="">
@@ -434,12 +434,12 @@
     <!-- contact section  ----------------------------------------------->
 
     <section id="contact" class="contant">
-        <div class="main-text">
+        <div class="main-text scroll-scale">
             <span>Doy respuesta a tus inquietudes</span>
             <h2>Contactame</h2>
         </div>
 
-        <form action="#">
+        <form action="#" class="scroll-bottom">
             <input type="text" placeholder="Nombre">
             <input type="text" placeholder="E-mail">
             <input type="text" placeholder="Dirección">
@@ -454,7 +454,7 @@
 
     <!-- footer  ----------------------------------------------->
     <footer>
-        <p>Copyright &copy; 2023 by Juanacho || All Rigths Reserved</p>
+        <p class="scroll-scale">Copyright &copy; 2023 by Juanacho || All Rigths Reserved</p>
         <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
     </footer>
 
